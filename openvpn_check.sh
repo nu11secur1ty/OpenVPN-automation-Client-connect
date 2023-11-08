@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# by V.Varbanovski
+# by@ nu11secur1ty
 PATH=/home/vpnpblx/vpn:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 squid=squid.service
