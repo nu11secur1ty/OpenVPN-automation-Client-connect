@@ -21,7 +21,7 @@ if ($output == 0)
 	
 	my $new_config = `wget https://downloads.nordcdn.com/configs/files/ovpn_legacy/servers/ba13.nordvpn.com.tcp443.ovpn && mv ba13.nordvpn.com.tcp443.ovpn ge.ovpn`;
 	# cleaning if you need ;)
-	#my $clean = `rm *.nordvpn.com.*`;
+	# my $clean = `rm *.nordvpn.com.*`;
 	
 	print "Please wait...\n";
 	sleep 7;
