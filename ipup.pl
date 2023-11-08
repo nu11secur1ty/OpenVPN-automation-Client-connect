@@ -42,6 +42,6 @@ elsif($output  == 1)
 	{
     print "$Str1 is less than $Str2\n";
     print "You must changing your ip!\n";
-    print "Now your IP is: $Str2\n";
+    print "Now your IP is: $check_IP_Again\n";
 
 }
