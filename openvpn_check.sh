@@ -13,8 +13,7 @@ else
 	systemctl start openvpn.service
 	#openvpn.service start
 	# Do not edit if you don't know WTF
-	cd /home/vpnnord0/vpnnord0/
-	#bash koi.sh
+	cd /home/user/your_vpn_env/
 	perl ipup.pl >> openvpn_check.log
 fi      
 	systemctl status openvpn.service
@@ -25,7 +24,7 @@ then
         echo “$squid is running!!!”
 else
         systemctl start squid.service
-        #squid.service start
+        # squid.service start
 fi
         systemctl status squid.service
 
