@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 # by@ nu11secur1ty
-PATH=/home/vpnpblx/vpn:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PATH=/home/your_user/vpn:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 squid=squid.service
 openvpn=openvpn.service
