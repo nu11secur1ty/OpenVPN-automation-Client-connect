@@ -3,5 +3,5 @@
 - Your cronjob
 
 ```bash
-*/15 * * * *    bash /home/user/your_vpn_env/authentication.sh >> /home/user/your_vpn_env/authentication.log 2>&1
+*/15 * * * *    bash /home/user/your_vpn_env/openvpn_check.sh >> /home/user/your_vpn_env/openvpn_check.log 2>&1
 ```
