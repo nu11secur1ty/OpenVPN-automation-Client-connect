@@ -11,7 +11,7 @@ then
 	echo “$openvpn is running!!!”
 else
 	systemctl start openvpn.service
-	#openvpn.service start
+	# openvpn.service start
 	# Do not edit if you don't know WTF
 	cd /home/user/your_vpn_env/
 	perl ipup.pl >> openvpn_check.log
