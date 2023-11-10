@@ -26,7 +26,7 @@ if ($output == 0)
 	print "You must change the IP\n";
 
         my $stopper = `bash openvpn_killer.sh`;
-	my $new_config = `wget https://your/IP-VPN/provider/taratnci.ovpn && mv taratnci.ovpn.ovpn ge.ovpn`;
+	my $new_config = `wget https://your/IP-VPN/provider/taratnci.ovpn && mv taratnci.ovpn.ovpn configvpn.ovpn`;
 	# cleaning if you need ;)
 	# my $clean = `rm *.nordvpn.com.*`;
 	
